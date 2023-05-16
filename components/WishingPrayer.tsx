@@ -24,7 +24,7 @@ const WishingPrayer = () => {
                     >
                         Bliss Jaspis Sitanggang, S.Kom
                     </div>
-                    <div className="text-sm text-gray-700 italic">
+                    <div className="text-sm text-gray-700">
                         Putra dari Bpk. V. Sitanggang & Ibu P. Sinaga
                     </div>
                 </div>
@@ -35,8 +35,8 @@ const WishingPrayer = () => {
                     >
                         Lini Br Simamora
                     </div>
-                    <div className="text-sm text-gray-700 italic">
-                        Putri dari Bpk. Simamora & Ibu S. Simbolon
+                    <div className="text-sm text-gray-700">
+                        Putri dari (†) Bpk. A. Simamora & Ibu S. Simbolon
                     </div>
                 </div>
 

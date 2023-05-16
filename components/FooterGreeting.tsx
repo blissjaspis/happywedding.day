@@ -16,11 +16,13 @@ const FooterGreeting = () => {
             </div>
 
             <div className="mb-10">
-                <div className="mb-5 text-gray-700">Kami Yang Berbahagia</div>
-                <div
-                    className={`${parisienne.className} text-yellow-500 text-3xl`}
-                >
-                    Bliss Jaspis Sitanggang & Lini Simamora
+                <div className="mb-10 text-gray-700">Kami Yang Berbahagia</div>
+                <div className={`${parisienne.className} text-yellow-500 text-3xl`}>
+                    Bliss Jaspis Sitanggang
+                </div>
+                <div className={`${parisienne.className} text-yellow-500 text-3xl`}>&</div>
+                <div className={`${parisienne.className} text-yellow-500 text-3xl`}>
+                    Lini Simamora
                 </div>
             </div>
         </div>
