@@ -15,9 +15,6 @@ const WishingPrayer = () => {
                     </div>
                 </div>
 
-                {/* Avatar */}
-                <div></div>
-
                 <div className="mb-10">
                     <div
                         className={`${parisienne.className} text-3xl bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-amber-500 p-2`}
@@ -36,25 +33,24 @@ const WishingPrayer = () => {
                         Lini Br Simamora
                     </div>
                     <div className="text-sm text-gray-700">
-                        Putri dari (†) Bpk. A. Simamora & Ibu S. Simbolon
+                        Putri dari Bpk. A. Simamora (†) & Ibu S. Simbolon
                     </div>
                 </div>
 
                 <div className=" border-2 p-5 bg-clip-content border-amber-300 border-dotted text-gray-700 font-light">
-                    <div>
-                        Taruhlah aku seperti meterai pada hatimu, seperti
-                        meterai pada lenganmu, karena cinta kuat seperti maut,
-                        kegairahan gigih seperti dunia orang mati, nyalanya
-                        adalah nyala api,seperti nyala api TUHAN!
-                    </div>
                     <div className="mb-5">
-                        Air yang banyak tak dapat memadamkan cinta,
-                        sungai-sungai tak dapat menghanyutkannya. Sekalipun
-                        orang memberi segala harta benda rumahnya untuk cinta,
-                        namun ia pasti akan dihina.
+                        Berdua lebih baik dari pada seorang diri, karena mereka
+                        menerima upah yang baik dalam jerih payah mereka. Karena
+                        kalau mereka jatuh, yang seorang mengangkat temannya,
+                        tetapi wai orang yang jatuh, yang tidak mempunyai orang
+                        lain untuk mengangkatnya! Juga kalau orang tidur berdua,
+                        mereka menjadi panas, tetapi bagaimana seorang saja
+                        dapat menjadi panas? Dan bilamana seorang dapat
+                        dialahkan, dua orang akan dapat bertahan. Tali tiga
+                        lembar tak mudah diputuskan.
                     </div>
-                    <div className="font-semibold text-gray-600">
-                        Kidung Agung 8:6-7
+                    <div className="text-cyan-800 tracking-wider">
+                        Pengkhotbah 4:9-12
                     </div>
                 </div>
             </div>
