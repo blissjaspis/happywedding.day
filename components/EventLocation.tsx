@@ -1,6 +1,6 @@
 const EventLocation = () => {
     return (
-        <>
+        <div className="bg-gray-50">
             <svg
                 className="h-32 w-full"
                 xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ const EventLocation = () => {
                     <h4 className="uppercase font-semibold text-cyan-800">
                         Pemberkatan
                     </h4>
-                    <hr className="w-10 border-t-4 border-cyan-900 opacity-70 mb-5" />
+                    <hr className="w-10 border-t-2 border-cyan-900 opacity-70 mb-5" />
 
                     <p className="text-sm text-gray-600 mb-5">
                         Gereja tempat upacara pernikahan akan berlangsung pada
@@ -35,7 +35,7 @@ const EventLocation = () => {
                             viewBox="0 0 24 24"
                             strokeWidth={1.5}
                             stroke="currentColor"
-                            className="w-6 h-6 mr-5"
+                            className="w-6 h-6 mr-5 text-cyan-800"
                         >
                             <path
                                 strokeLinecap="round"
@@ -44,7 +44,7 @@ const EventLocation = () => {
                             />
                         </svg>
 
-                        <div className="flex flex-col text-gray-800 text-sm">
+                        <div className="flex flex-col text-cyan-800 text-sm">
                             <span>Selasa, 4 Oktober 2023</span>
                             <span>Pukul 09:00 - 12:00 WIB</span>
                         </div>
@@ -57,7 +57,7 @@ const EventLocation = () => {
                             viewBox="0 0 24 24"
                             strokeWidth={1.5}
                             stroke="currentColor"
-                            className="w-6 h-6 mr-5"
+                            className="w-6 h-6 mr-5 text-cyan-800"
                         >
                             <path
                                 strokeLinecap="round"
@@ -66,9 +66,8 @@ const EventLocation = () => {
                             />
                         </svg>
 
-                        <div className="flex flex-col text-gray-800 text-sm">
-                            <span>GMAHK Binjai</span>
-                            <span>Pukul 09:00 - 12:00 WIB</span>
+                        <div className="flex flex-col text-cyan-800 text-sm">
+                            <span>GMAHK, Binjai, Sumatera Utara</span>
                         </div>
                     </div>
 
@@ -87,11 +86,10 @@ const EventLocation = () => {
                     <h4 className="uppercase font-semibold text-cyan-800">
                         Resepsi & Adat
                     </h4>
-                    <hr className="w-10 border-t-4 border-cyan-900 opacity-70 mb-5" />
+                    <hr className="w-10 border-t-2 border-cyan-900 opacity-70 mb-5" />
 
                     <p className="text-sm text-gray-600 mb-5">
-                        Resepsi dan Adat pernikahan akan berlangsung di Tomoria
-                        Hall Binjai
+                        Resepsi dan Adat pernikahan akan berlangsung di Tomuria Hall Binjai
                     </p>
 
                     <div className="flex items-center mb-5">
@@ -101,7 +99,7 @@ const EventLocation = () => {
                             viewBox="0 0 24 24"
                             strokeWidth={1.5}
                             stroke="currentColor"
-                            className="w-6 h-6 mr-5"
+                            className="w-6 h-6 mr-5 text-cyan-800"
                         >
                             <path
                                 strokeLinecap="round"
@@ -110,7 +108,7 @@ const EventLocation = () => {
                             />
                         </svg>
 
-                        <div className="flex flex-col text-gray-800 text-sm">
+                        <div className="flex flex-col text-cyan-800 text-sm">
                             <span>Selasa, 4 Oktober 2023</span>
                             <span>Pukul 09:00 - 12:00 WIB</span>
                         </div>
@@ -123,7 +121,7 @@ const EventLocation = () => {
                             viewBox="0 0 24 24"
                             strokeWidth={1.5}
                             stroke="currentColor"
-                            className="w-6 h-6 mr-5"
+                            className="w-6 h-6 mr-5 text-cyan-800"
                         >
                             <path
                                 strokeLinecap="round"
@@ -132,9 +130,8 @@ const EventLocation = () => {
                             />
                         </svg>
 
-                        <div className="flex flex-col text-gray-800 text-sm">
-                            <span>Tomorial Hall</span>
-                            <span>Pukul 12:00 - Selesai</span>
+                        <div className="flex flex-col text-cyan-800 text-sm">
+                            <span>Tomuria Hall , Binjai, Sumatera Utara</span>
                         </div>
                     </div>
 
@@ -167,7 +164,7 @@ const EventLocation = () => {
                     Simpan Kalender
                 </button>
             </div>
-        </>
+        </div>
     )
 }
 
