@@ -1,37 +1,39 @@
 import "photoswipe/dist/photoswipe.css"
 import { Gallery, Item } from "react-photoswipe-gallery"
+import Image from "next/image"
+import React from "react"
 
 interface Images {
     url: string
-    width: string
-    height: string
+    width: number
+    height: number
 }
 
 const listImages: Images[] = [
     {
         url: "1-peace.jpeg",
-        width: "970",
-        height: "1296",
+        width: 970,
+        height: 1296,
     },
     {
         url: "2-skating.jpeg",
-        width: "958",
-        height: "1280",
+        width: 958,
+        height: 1280,
     },
     {
         url: "3-hall.jpeg",
-        width: "958",
-        height: "1280",
+        width: 958,
+        height: 1280,
     },
     {
         url: "4-hospex.jpeg",
-        width: "958",
-        height: "1280",
+        width: 958,
+        height: 1280,
     },
     {
         url: "5-ranca.jpeg",
-        width: "648",
-        height: "1440",
+        width: 648,
+        height: 1440,
     },
 ]
 
@@ -64,10 +66,15 @@ const PhotoGallery = () => {
                             key={index}
                         >
                             {({ ref, open }) => (
-                                <img
-                                    ref={ref}
+                                <Image
+                                    width={image.width}
+                                    height={image.height}
+                                    ref={
+                                        ref as React.MutableRefObject<HTMLImageElement>
+                                    }
                                     onClick={open}
                                     src={`/images/gallery/${image.url}`}
+                                    alt="photo gallery"
                                 />
                             )}
                         </Item>
