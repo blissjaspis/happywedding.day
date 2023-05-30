@@ -7,7 +7,7 @@ const parisienne = Parisienne({ weight: "400", subsets: ["latin"] })
 
 const FirstGreeting = () => {
     return (
-        <div className={`flex flex-col justify-between items-center h-screen`}>
+        <div className={`flex flex-col justify-between1 items-center h-screen1 relative`}>
             <Image
                 className={styles.leftFloral}
                 src="/images/floral.avif"
@@ -37,6 +37,19 @@ const FirstGreeting = () => {
                 height={120}
             ></Image>
 
+            <Image
+                src="/images/gradient.png"
+                alt="and-icon"
+                height={0}
+                width={0}
+                className="absolute"
+                style={{
+                    objectFit: "fill",
+                    width: "100%",
+                    height: "100%",
+                }}
+            ></Image>
+
             <div className="mx-auto max-w-xl text-center p-10">
                 <div
                     className={`${parisienne.className} text-2xl text-pink-500`}
@@ -50,7 +63,7 @@ const FirstGreeting = () => {
                 </div>
             </div>
 
-            <div className="max-w-xl p-5 flex flex-col justify-center items-center mb-14">
+            <div className="max-w-xl p-5 flex flex-col justify-center items-center mb-10">
                 <div
                     className={`${parisienne.className} text-cyan-800 text-6xl font-bold leading-relaxed`}
                 >
@@ -74,13 +87,13 @@ const FirstGreeting = () => {
             </div>
 
             <div className="mx-auto max-w-xl text-center mb-5">
-                <div className="px-5 mb-10 text-cyan-950">
+                <div className="px-5 mb-10 text-cyan-700 text-sm max-w-sm">
                     Kami mengundang anda untuk menghadiri pernikahan kami
                 </div>
-                <div className="text-lg text-amber-700">
+                <div className="text-cyan-800 text-sm">
                     Binjai, Sumatera Utara
                 </div>
-                <div className="text-lg text-amber-700">
+                <div className="text-cyan-800 text-sm">
                     Kamis, 20 September 2023
                 </div>
             </div>

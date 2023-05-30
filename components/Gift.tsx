@@ -25,7 +25,7 @@ const Gift = () => {
                 Kirim Bingkisan
             </h2>
             <div className="p-5">
-                <div className="p-5 bg-white flex flex-col justify-center items-center">
+                <div className="p-5 bg-white flex flex-col justify-center items-center rounded">
                     <Image src={'/images/bca.png'} alt="logo bca" height={80} width={150} />
                     <hr className="w-full border-t-2 border-cyan-900 opacity-70 mb-5" />
                     <div className="font-medium text-xl tracking-wider text-cyan-800 mb-5">20232023</div>
