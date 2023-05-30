@@ -1,13 +1,14 @@
 import { Parisienne } from "@next/font/google"
 import Image from "next/image"
 import styles from "@/styles/Home.module.css"
-import { motion } from "framer-motion"
 
 const parisienne = Parisienne({ weight: "400", subsets: ["latin"] })
 
 const FirstGreeting = () => {
     return (
-        <div className={`flex flex-col justify-evenly items-center h-screen relative`}>
+        <div
+            className={`flex flex-col justify-evenly items-center h-screen relative`}
+        >
             <Image
                 className={styles.leftFloral}
                 src="/images/floral.avif"
@@ -90,12 +91,8 @@ const FirstGreeting = () => {
                 <div className="px-5 mb-10 text-cyan-700 max-w-sm">
                     Kami mengundang anda untuk menghadiri pernikahan kami
                 </div>
-                <div className="text-cyan-800">
-                    Binjai, Sumatera Utara
-                </div>
-                <div className="text-cyan-800">
-                    Kamis, 20 September 2023
-                </div>
+                <div className="text-cyan-800">Binjai, Sumatera Utara</div>
+                <div className="text-cyan-800">Kamis, 20 September 2023</div>
             </div>
         </div>
     )

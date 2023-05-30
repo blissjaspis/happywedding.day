@@ -39,9 +39,9 @@ const listImages: Images[] = [
 
 const PhotoGallery = () => {
     return (
-        <>
+        <div className="bg-gray-50">
             <svg
-                className="h-32 w-full"
+                className="w-full"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1440 320"
             >
@@ -51,7 +51,7 @@ const PhotoGallery = () => {
                     d="M0,192L80,165.3C160,139,320,85,480,96C640,107,800,181,960,218.7C1120,256,1280,256,1360,256L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
                 ></path>
             </svg>
-            <h2 className="font-bold text-3xl mb-10 text-center -mt-5 font-serif uppercase text-cyan-800">
+            <h2 className="font-bold text-3xl mb-10 text-center font-serif uppercase text-cyan-800">
                 Photo Gallery
             </h2>
 
@@ -81,7 +81,7 @@ const PhotoGallery = () => {
                     ))}
                 </div>
             </Gallery>
-        </>
+        </div>
     )
 }
 

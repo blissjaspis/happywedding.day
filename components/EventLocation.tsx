@@ -2,7 +2,7 @@ const EventLocation = () => {
     return (
         <div className="bg-gray-50">
             <svg
-                className="h-32 w-full"
+                className="w-full"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1440 320"
             >
@@ -12,7 +12,7 @@ const EventLocation = () => {
                     d="M0,192L80,165.3C160,139,320,85,480,96C640,107,800,181,960,218.7C1120,256,1280,256,1360,256L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
                 ></path>
             </svg>
-            <h2 className="font-bold text-3xl mb-10 text-center -mt-5 font-serif uppercase text-cyan-800">
+            <h2 className="font-bold text-3xl mb-10 text-center font-serif uppercase text-cyan-800">
                 Lokasi Acara
             </h2>
 
@@ -81,7 +81,7 @@ const EventLocation = () => {
                 </div>
             </div>
 
-            <div className="bg-gray-50 p-5 mb-10">
+            <div className="bg-gray-50 p-5">
                 <div className="bg-white p-5 rounded-lg">
                     <h4 className="uppercase font-semibold text-cyan-800">
                         Resepsi & Adat
@@ -89,7 +89,8 @@ const EventLocation = () => {
                     <hr className="w-10 border-t-2 border-cyan-900 opacity-70 mb-5" />
 
                     <p className="text-sm text-gray-600 mb-5">
-                        Resepsi dan Adat pernikahan akan berlangsung di Tomuria Hall Binjai
+                        Resepsi dan Adat pernikahan akan berlangsung di Tomuria
+                        Hall Binjai
                     </p>
 
                     <div className="flex items-center mb-5">
@@ -131,7 +132,7 @@ const EventLocation = () => {
                         </svg>
 
                         <div className="flex flex-col text-cyan-800 text-sm">
-                            <span>Tomuria Hall , Binjai, Sumatera Utara</span>
+                            <span>Tomuria Hall, Binjai, Sumatera Utara</span>
                         </div>
                     </div>
 
@@ -145,7 +146,7 @@ const EventLocation = () => {
                 </div>
             </div>
 
-            <div className="flex justify-center mb-10">
+            <div className="flex justify-center py-10">
                 <button className="flex items-center bg-black text-white px-5 py-3 rounded hover:bg-gray-900 text-sm font-semibold">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
